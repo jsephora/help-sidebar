@@ -1,0 +1,91 @@
+/* General */
+html, body {
+    overflow-x: hidden;
+    background: #707070;
+    position:relative;
+    color: #666;
+}
+.container {
+    max-width: 970px !important; 
+    
+    a {
+        color: #4365d9; 
+        
+        &:focus, &:hover, &:active {
+             color: #4365d9;  
+        }
+    }
+     #return-home {
+        display: block;
+        padding: 2px 10px 10px 25px;
+        margin-top: 10px;
+        border-radius: 10px;
+        text-decoration: none;
+        outline-width: 0;
+        width: 250px;
+        font-size: 1.1em;
+        background: url(../images/back_arrow.png) no-repeat;
+        background-position: 0 0;
+
+    &:hover {
+        color: #4365d9;
+    }
+}
+}
+header {
+    background: #707070;
+    margin: 0 -9999px;
+    padding: 0 9999px;
+    border-bottom: solid 5px $grey-darkest;
+}
+.sidebar {
+    float: left;
+    display: none;
+    
+    @media (min-width: 800px) {
+        display: block;   
+    }
+}
+.main-content {
+    margin-left: 0;
+    padding: 10px 20px 20px;
+    background: #ffffff;
+    
+    @media (min-width: 800px) {
+        display: block;
+        margin-left: 250px;
+    }
+}
+.printerIcon {
+    float: right;   
+}
+.body-text {
+    clear: right;   
+}
+
+img.full-width {
+    width: 100%;
+}
+h1 {
+    border-bottom: 1px solid;
+    margin-bottom: 1em;
+    color: #000000;
+    margin-top: 67px;
+}
+h3 {
+    margin-top: 2em;
+}
+h5 {
+    font-size: 0.9em;   
+}
+table {
+    margin-bottom: 20px;   
+}
+th, td {
+    border: 1px solid #333;  
+    padding: 10px;
+}
+th {
+    background-color: #dde1e2;
+}
+
